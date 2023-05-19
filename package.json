@@ -1,0 +1,22 @@
+{
+    "name": "dontassumepronouns",
+    "version": "1.0.0",
+    "description": "Don't Assume Pronouns",
+    "scripts": {
+        "test": "npx prettier -c public",
+        "format": "npx prettier --write public"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSameLine": true,
+        "printWidth": 100
+    }
+}
