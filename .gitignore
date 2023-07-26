@@ -1,1 +1,4 @@
 node_modules/
+public/.htaccess
+public/.php-ini
+public/.php-version
