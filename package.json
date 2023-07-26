@@ -4,7 +4,8 @@
     "description": "Don't Assume Pronouns",
     "scripts": {
         "test": "npx prettier -c public",
-        "format": "npx prettier --write public"
+        "format": "npx prettier --write public",
+        "serve": "npx http-server public -p 8080"
     },
     "author": "",
     "license": "MIT",
